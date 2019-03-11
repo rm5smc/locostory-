@@ -1,0 +1,77 @@
+/* CSS Avatar*/
+
+img.avatar {
+  width: 30%;
+  border-radius: 50%;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+
+/* container */
+
+.container {
+  padding: 60px;
+}
+
+
+/*CSS form*/
+
+label {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-style: italic;
+}
+
+/* CSS button */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+  height: 50px;
+  width: 203px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/*CSS span*/
+span.psw {
+  float: right;
+  padding-top: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+}
+
+
+label.remenber_me {
+  font-weight: normal;
+  font-style: italic;
+}
+
+.psw a {
+  text-decoration: none;
+}

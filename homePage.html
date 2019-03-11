@@ -1,0 +1,51 @@
+<html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+    
+  <style>
+    table, td {
+    border: 1px solid black;
+}
+  </style>
+</head>
+<body onload="loadBook()">
+  <form action=""  >
+      <input type="text" id="id"  hidden>
+    <label for="name">Name</label>
+    <input type="text" id="name"  >
+    <label for="description">Description</label>
+    <input type="text" id="description"  >
+    <label for="author">Author</label>
+    <input type="text" id="author" >
+    <label for="categoryId">CategoryId</label>
+    <input type="text" id="categoryId" >
+    <label for="image">Image</label>
+    <input type="text" id="image" >  
+  </form>
+  
+  <div>
+    <button onclick="addBook()"> ADD BOOK </button>
+    <button onclick="editBook()"> EDIT BOOK </button>
+  </div>
+  <div>
+    <table id="myTable">
+      <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Description</td>
+        <td>Author</td>
+        <td>CategoryId</td>
+        <td>Image</td>
+        <td>Action</td>
+      </tr>
+    </table>
+  </div>
+
+  <script src="assets/js/homePage.js"></script>
+</body>
+</html>
